@@ -89,7 +89,7 @@ public class DQG_Response {
         driver = new EdgeDriver();
         driver.manage().window().maximize();
 
-        FileInputStream excelFile = new FileInputStream(".//src//main//java//Resources//Book1.xlsx");
+        FileInputStream excelFile = new FileInputStream(".//src//main//Resources//Book1.xlsx");
         Workbook workbook = new XSSFWorkbook(excelFile);
         Sheet sheet = workbook.getSheetAt(0);
 
