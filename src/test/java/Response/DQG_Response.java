@@ -43,7 +43,7 @@ public class DQG_Response {
 
         connectionList_status = connectionListResponse.getStatus();
         connectionList_responsebody = connectionListResponse.getBody();
-
+        System.out.println("email Not sent");
         System.out.println("Connections List Status = " + connectionList_status);
         System.out.println("Connections List Body = " + connectionList_responsebody);
 
@@ -70,6 +70,6 @@ public class DQG_Response {
        // email.addTo("ravikumar.p@kairostech.com");
 
         email.send();
-         System.out.println("Email Sent" );
+        System.out.println("email sent");
     }
 }
