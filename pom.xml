@@ -289,7 +289,7 @@
 
             <suiteXmlFiles>
 
-              <suiteXmlFile>Testng.xml</suiteXmlFile>
+              <suiteXmlFile>testng.xml</suiteXmlFile>
 
             </suiteXmlFiles>
           </configuration>
