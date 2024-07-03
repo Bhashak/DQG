@@ -70,6 +70,6 @@ public class DQG_Response {
        // email.addTo("ravikumar.p@kairostech.com");
 
         email.send();
-         System.out.println("Email Sent" )
+         System.out.println("Email Sent" );
     }
 }
